@@ -5,27 +5,18 @@ import json
 from dotenv import load_dotenv
 load_dotenv()
 MONGO_DB_URL=os.getenv("MONGO_DB_URL")
-<<<<<<< HEAD
 # print(MONGO_DB_URL)
 
 import certifi
 ca = certifi.where()
-=======
-print(MONGO_DB_URL)
-
-
-import certifi
-ca = certifi.where()
-
->>>>>>> 2a7867c24493ab5f82e9cb79e9475f22ca8b06c1
 import pandas as pd
 import numpy as np
 import pymongo
+
 from networksecurity.exception.exception import NetworkSecurityException
 from networksecurity.logger.logger import logging
 
-
-class NetworkDataExtract():
+class NetwrokDataExtract():
     def __init__(self):
         try:
             pass
@@ -41,13 +32,8 @@ class NetworkDataExtract():
         
         except Exception as e:
             raise NetworkSecurityException(e, sys)
-<<<<<<< HEAD
         
     def pushing_data_to_mongodb(self, records, database, collection):
-=======
-    
-    def pushing_data_to_mongodb(self):
->>>>>>> 2a7867c24493ab5f82e9cb79e9475f22ca8b06c1
         try:
             self.database = database
             self.collection = collection
@@ -60,9 +46,8 @@ class NetworkDataExtract():
             return len(self.records)
 
         except Exception as e:
-            raise NetworkSecurityException(e,sys)
+            raise NetworkSecurityException(e, sys)
         
-<<<<<<< HEAD
 if __name__ == "__main__":
     FILE_PATH = "./Network_Data/NetworkData.csv"
     DATABASE = "MLOps_Project"
@@ -71,7 +56,3 @@ if __name__ == "__main__":
     records = networkobj.csv_to_json_convertor(FILE_PATH)
     num_of_records = networkobj.pushing_data_to_mongodb(records, DATABASE, COLLECTION)
     print(num_of_records)
-=======
-    if __name__ == '__main__':
-        pass
->>>>>>> 2a7867c24493ab5f82e9cb79e9475f22ca8b06c1
