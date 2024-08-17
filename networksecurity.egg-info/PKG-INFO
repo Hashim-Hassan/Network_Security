@@ -1,12 +1,22 @@
 Metadata-Version: 2.1
 Name: networksecurity
 Version: 0.0.1
+<<<<<<< HEAD
 Author: md hashim
 Author-email: md.hashim127@gmail.com
 License-File: LICENCE
 License-File: LICENSE
+=======
+Author: sunny savita
+Author-email: snshrivas3365@gmail.com
+License-File: LICENCE
+>>>>>>> 2a7867c24493ab5f82e9cb79e9475f22ca8b06c1
 Requires-Dist: python-dotenv
 Requires-Dist: pandas
 Requires-Dist: numpy
 Requires-Dist: pymongo
+<<<<<<< HEAD
 Requires-Dist: certifi
+=======
+Requires-Dist: certifi
+>>>>>>> 2a7867c24493ab5f82e9cb79e9475f22ca8b06c1

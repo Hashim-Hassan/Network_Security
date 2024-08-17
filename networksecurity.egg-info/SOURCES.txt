@@ -1,5 +1,8 @@
 LICENCE
+<<<<<<< HEAD
 LICENSE
+=======
+>>>>>>> 2a7867c24493ab5f82e9cb79e9475f22ca8b06c1
 README.md
 setup.py
 networksecurity/__init__.py
@@ -12,7 +15,13 @@ networksecurity/components/__init__.py
 networksecurity/constant/__init__.py
 networksecurity/entity/__init__.py
 networksecurity/exception/__init__.py
+<<<<<<< HEAD
 networksecurity/exception/exception.py
 networksecurity/logger/__init__.py
 networksecurity/logger/logger.py
 networksecurity/pipeline/__init__.py
+=======
+networksecurity/logger/__init__.py
+networksecurity/pipeline/__init__.py
+networksecurity/utils/__init__.py
+>>>>>>> 2a7867c24493ab5f82e9cb79e9475f22ca8b06c1

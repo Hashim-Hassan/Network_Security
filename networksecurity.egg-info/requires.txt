@@ -2,4 +2,8 @@ python-dotenv
 pandas
 numpy
 pymongo
+<<<<<<< HEAD
 certifi
+=======
+certifi
+>>>>>>> 2a7867c24493ab5f82e9cb79e9475f22ca8b06c1
