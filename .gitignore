@@ -1,5 +1,7 @@
 .env
 venv
 logs
+networksecurity.egg-info
+Artifacts
 steps.txt
 test.py
