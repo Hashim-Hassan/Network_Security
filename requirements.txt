@@ -10,5 +10,9 @@ pyyaml
 xgboost
 matplotlib
 seaborn
+fastapi
+uvicorn
+ipykernel
+apache-airflow
 
 -e .
